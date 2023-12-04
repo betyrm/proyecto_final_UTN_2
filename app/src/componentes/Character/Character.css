@@ -1,0 +1,76 @@
+/* 
+
+.personaje {
+	background: gray;
+	border-radius: 0.3rem;
+	box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.1);
+	display: grid;
+	grid-template: 10rem auto / 1fr;
+	overflow: hidden;
+	animation: showCard 0.5s linear;
+}
+
+.personaje-header {
+	background: var(--color-primary);
+	padding: 2rem;
+	text-align: right;
+}
+
+.estado {
+	background: var(--color-secondary);
+	display: inline-flex;
+	color: var(--color-light);
+	padding: 0.5rem 1rem;
+	border-radius: 2.5rem;
+	font-size: 1.2rem;
+	width: auto;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+.personaje-body {
+	padding: 8rem 2rem 4rem;
+	position: relative;
+}
+.personaje-body figure {
+	position: absolute;
+	display: block;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 50%;
+	top: -6rem;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 0 1rem 0 var(--color-light);
+	overflow: hidden;
+}
+.personaje-body figure img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.personaje-body h2 {
+	width: 100%;
+	background: var(--color-primary);
+	color: var(--color-dark);
+	border-radius: 0.5rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	transition-property: background, color; 
+	font-size: 1.8rem;
+}
+/* .personaje-body p {
+	width: 100%;
+	background: rgba(219, 246, 233, 0.9);
+	color: var(--color-dark);
+	border-radius: 0.5rem;
+	height: 4rem;
+	margin-top: 2rem;
+	line-height: 4rem;
+	text-align: center;
+}
+.personaje-body p span {
+	font-weight: bold;
+} */ 
